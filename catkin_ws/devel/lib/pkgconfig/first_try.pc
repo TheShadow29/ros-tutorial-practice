@@ -1,8 +1,0 @@
-prefix=/home/arktheshadow/catkin_ws/devel
-
-Name: first_try
-Description: Description of first_try
-Version: 0.0.0
-Cflags: -I/home/arktheshadow/catkin_ws/devel/include
-Libs: -L/home/arktheshadow/catkin_ws/devel/lib 
-Requires: message_runtime

@@ -1,0 +1,8 @@
+prefix=/home/arktheshadow/ARK-Linux/Programming/ROS/ros-tutorial-practice/catkin_ws_new/devel
+
+Name: first_try
+Description: Description of first_try
+Version: 0.0.0
+Cflags: -I/home/arktheshadow/ARK-Linux/Programming/ROS/ros-tutorial-practice/catkin_ws_new/devel/include
+Libs: -L/home/arktheshadow/ARK-Linux/Programming/ROS/ros-tutorial-practice/catkin_ws_new/devel/lib 
+Requires: message_runtime
