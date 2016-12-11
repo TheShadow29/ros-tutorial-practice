@@ -1,0 +1,8 @@
+prefix=/home/arktheshadow/ARK-Linux/Programming/ROS/ros-tutorial-practice/catkin_ws_new/install
+
+Name: plane_segment
+Description: Description of plane_segment
+Version: 0.0.0
+Cflags: 
+Libs: -L/home/arktheshadow/ARK-Linux/Programming/ROS/ros-tutorial-practice/catkin_ws_new/install/lib 
+Requires: 

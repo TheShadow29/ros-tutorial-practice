@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<launch>
+  <!--create pc bag -->
+  <!-- <node pkg="create_point_cloud_bag" type="create_point_cloud_bag_node" -->
+  <!-- 		name="create_point_cloud_bag_node" output="screen"/> -->
+  <node pkg="create_point_cloud_bag" type="load_pcd_to_bag_node"
+		name="load_pcd_to_bag_node" output="screen"/>
+  <node pkg="rosbag" type="record" name="rosbag_record_pcd_bag"
+		args="-o  $(find create_point_cloud_bag)/bag_files/pcd_bag1 /pc_out"/>
+  <node pkg="rviz" type="rviz" name="rviz" args="-d $(find create_point_cloud_bag)/launch/pc_example.rviz"/>
+
+</launch>

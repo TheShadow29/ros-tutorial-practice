@@ -8,4 +8,3 @@
 
 # modified environment variables
 export PWD="/home/arktheshadow/ARK-Linux/Programming/ROS/ros-tutorial-practice/catkin_ws_new/build"
-export ROS_PACKAGE_PATH="/home/arktheshadow/ARK-Linux/Programming/ROS/ros-tutorial-practice/catkin_ws_new/src:/opt/ros/kinetic/share"

@@ -1,0 +1,8 @@
+prefix=/home/arktheshadow/ARK-Linux/Programming/ROS/ros-tutorial-practice/catkin_ws_new/install
+
+Name: create_point_cloud_bag
+Description: Description of create_point_cloud_bag
+Version: 0.0.0
+Cflags: 
+Libs: -L/home/arktheshadow/ARK-Linux/Programming/ROS/ros-tutorial-practice/catkin_ws_new/install/lib 
+Requires: 
