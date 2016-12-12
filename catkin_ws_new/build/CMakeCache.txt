@@ -365,6 +365,12 @@ pcl_msgs_DIR:PATH=/opt/ros/kinetic/share/pcl_msgs/cmake
 pcl_ros_DIR:PATH=/opt/ros/kinetic/share/pcl_ros/cmake
 
 //Value Computed by CMake
+pcl_tut_plane_seg_BINARY_DIR:STATIC=/home/arktheshadow/ARK-Linux/Programming/ROS/ros-tutorial-practice/catkin_ws_new/build/pcl_tut_plane_seg
+
+//Value Computed by CMake
+pcl_tut_plane_seg_SOURCE_DIR:STATIC=/home/arktheshadow/ARK-Linux/Programming/ROS/ros-tutorial-practice/catkin_ws_new/src/pcl_tut_plane_seg
+
+//Value Computed by CMake
 plane_segment_BINARY_DIR:STATIC=/home/arktheshadow/ARK-Linux/Programming/ROS/ros-tutorial-practice/catkin_ws_new/build/plane_segment
 
 //Value Computed by CMake

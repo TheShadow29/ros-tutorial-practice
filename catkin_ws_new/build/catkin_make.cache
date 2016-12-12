@@ -1,2 +1,2 @@
-create_point_cloud_bag:first_try:my_pcl_tutorial:plane_segment:using_markers
+create_point_cloud_bag:first_try:my_pcl_tutorial:pcl_tut_plane_seg:using_markers
 -DCATKIN_DEVEL_PREFIX=/home/arktheshadow/ARK-Linux/Programming/ROS/ros-tutorial-practice/catkin_ws_new/devel -DCMAKE_INSTALL_PREFIX=/home/arktheshadow/ARK-Linux/Programming/ROS/ros-tutorial-practice/catkin_ws_new/install -G Unix Makefiles

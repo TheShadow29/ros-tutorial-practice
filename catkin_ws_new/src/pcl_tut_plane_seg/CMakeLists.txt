@@ -1,5 +1,5 @@
 cmake_minimum_required(VERSION 2.8.3)
-project(plane_segment)
+project(pcl_tut_plane_seg)
 
 ## Find catkin macros and libraries
 ## if COMPONENTS list like find_package(catkin REQUIRED COMPONENTS xyz)
@@ -9,6 +9,7 @@ find_package(catkin REQUIRED COMPONENTS
   pcl_ros
   roscpp
   sensor_msgs
+  visualization_msgs
 )
 
 ## System dependencies are found with CMake's conventions
@@ -68,7 +69,7 @@ find_package(catkin REQUIRED COMPONENTS
 ## Generate added messages and services with any dependencies listed here
 # generate_messages(
 #   DEPENDENCIES
-#   sensor_msgs
+#   sensor_msgs#   visualization_msgs
 # )
 
 ################################################
@@ -102,8 +103,8 @@ find_package(catkin REQUIRED COMPONENTS
 ## DEPENDS: system dependencies of this project that dependent projects also need
 catkin_package(
 #  INCLUDE_DIRS include
-#  LIBRARIES plane_segment
-#  CATKIN_DEPENDS pcl_conversions pcl_ros roscpp sensor_msgs
+#  LIBRARIES pcl_tut_plane_seg
+#  CATKIN_DEPENDS pcl_conversions pcl_ros roscpp sensor_msgs visualization_msgs
 #  DEPENDS system_lib
 )
 
@@ -119,26 +120,26 @@ include_directories(
 )
 
 ## Declare a C++ library
-# add_library(plane_segment
-#   src/${PROJECT_NAME}/plane_segment.cpp
+# add_library(pcl_tut_plane_seg
+#   src/${PROJECT_NAME}/pcl_tut_plane_seg.cpp
 # )
 
 ## Add cmake target dependencies of the library
 ## as an example, code may need to be generated before libraries
 ## either from message generation or dynamic reconfigure
-# add_dependencies(plane_segment ${${PROJECT_NAME}_EXPORTED_TARGETS} ${catkin_EXPORTED_TARGETS})
+# add_dependencies(pcl_tut_plane_seg ${${PROJECT_NAME}_EXPORTED_TARGETS} ${catkin_EXPORTED_TARGETS})
 
 ## Declare a C++ executable
-# add_executable(plane_segment_node src/plane_segment_node.cpp)
+add_executable(pcl_tut_plane_seg_node src/pcl_tut_plane_seg_node.cpp)
 
 ## Add cmake target dependencies of the executable
 ## same as for the library above
-# add_dependencies(plane_segment_node ${${PROJECT_NAME}_EXPORTED_TARGETS} ${catkin_EXPORTED_TARGETS})
+# add_dependencies(pcl_tut_plane_seg_node ${${PROJECT_NAME}_EXPORTED_TARGETS} ${catkin_EXPORTED_TARGETS})
 
 ## Specify libraries to link a library or executable target against
-# target_link_libraries(plane_segment_node
-#   ${catkin_LIBRARIES}
-# )
+target_link_libraries(pcl_tut_plane_seg_node
+  ${catkin_LIBRARIES}
+)
 
 #############
 ## Install ##
@@ -155,7 +156,7 @@ include_directories(
 # )
 
 ## Mark executables and/or libraries for installation
-# install(TARGETS plane_segment plane_segment_node
+# install(TARGETS pcl_tut_plane_seg pcl_tut_plane_seg_node
 #   ARCHIVE DESTINATION ${CATKIN_PACKAGE_LIB_DESTINATION}
 #   LIBRARY DESTINATION ${CATKIN_PACKAGE_LIB_DESTINATION}
 #   RUNTIME DESTINATION ${CATKIN_PACKAGE_BIN_DESTINATION}
@@ -180,7 +181,7 @@ include_directories(
 #############
 
 ## Add gtest based cpp test target and link libraries
-# catkin_add_gtest(${PROJECT_NAME}-test test/test_plane_segment.cpp)
+# catkin_add_gtest(${PROJECT_NAME}-test test/test_pcl_tut_plane_seg.cpp)
 # if(TARGET ${PROJECT_NAME}-test)
 #   target_link_libraries(${PROJECT_NAME}-test ${PROJECT_NAME})
 # endif()

@@ -1,15 +1,22 @@
 #include <ros/ros.h>
 #include <visualization_msgs/Marker.h>
 
+int show_marker();
+ros::Publisher marker_pub;
 int main( int argc, char** argv )
 {
 	//standard stuff
 	ros::init(argc, argv, "basic_shapes");
 	ros::NodeHandle n;
-	ros::Rate r(1);
-	ros::Publisher marker_pub = n.advertise<visualization_msgs::Marker>("visualization_marker", 1);
+
+	marker_pub = n.advertise<visualization_msgs::Marker>("visualization_marker", 1);
+	show_marker();
+}
+
+int show_marker()
+{
 	uint32_t shape = visualization_msgs::Marker::CUBE;
-	
+	ros::Rate r(1);	
 	while (ros::ok())
 	{
 		//create visualization msg obj called marker
@@ -68,7 +75,7 @@ int main( int argc, char** argv )
 		marker_pub.publish(marker);
 
 
-    // Cycle between different shapes
+		// Cycle between different shapes
  
 		switch (shape)
 		{
@@ -89,7 +96,6 @@ int main( int argc, char** argv )
 
 
 		r.sleep();
-  }
-
+	}
+	
 }
-

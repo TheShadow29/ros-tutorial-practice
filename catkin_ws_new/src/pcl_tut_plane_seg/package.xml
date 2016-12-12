@@ -1,8 +1,8 @@
 <?xml version="1.0"?>
 <package>
-  <name>plane_segment</name>
+  <name>pcl_tut_plane_seg</name>
   <version>0.0.0</version>
-  <description>The plane_segment package</description>
+  <description>The pcl_tut_plane_seg package</description>
 
   <!-- One maintainer tag required, multiple allowed, one person per tag --> 
   <!-- Example:  -->
@@ -19,7 +19,7 @@
   <!-- Url tags are optional, but mutiple are allowed, one per tag -->
   <!-- Optional attribute type can be: website, bugtracker, or repository -->
   <!-- Example: -->
-  <!-- <url type="website">http://wiki.ros.org/plane_segment</url> -->
+  <!-- <url type="website">http://wiki.ros.org/pcl_tut_plane_seg</url> -->
 
 
   <!-- Author tags are optional, mutiple are allowed, one per tag -->
@@ -44,12 +44,14 @@
   <build_depend>pcl_ros</build_depend>
   <build_depend>roscpp</build_depend>
   <build_depend>sensor_msgs</build_depend>
+  <build_depend>visualization_msgs</build_depend>
   <build_depend>libpcl-all-dev</build_depend>
   <run_depend>libpcl-all</run_depend>
   <run_depend>pcl_conversions</run_depend>
   <run_depend>pcl_ros</run_depend>
   <run_depend>roscpp</run_depend>
   <run_depend>sensor_msgs</run_depend>
+  <run_depend>visualization_msgs</run_depend>
 
 
   <!-- The export tag contains other, unspecified, tags -->

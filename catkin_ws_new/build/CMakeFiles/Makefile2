@@ -3254,22 +3254,224 @@ clean: my_pcl_tutorial/CMakeFiles/pcl_example.dir/clean
 .PHONY : clean
 
 #=============================================================================
-# Directory level rules for directory plane_segment
+# Directory level rules for directory pcl_tut_plane_seg
 
 # Convenience name for "all" pass in the directory.
-plane_segment/all:
+pcl_tut_plane_seg/all: pcl_tut_plane_seg/CMakeFiles/pcl_tut_plane_seg_node.dir/all
 
-.PHONY : plane_segment/all
+.PHONY : pcl_tut_plane_seg/all
 
 # Convenience name for "clean" pass in the directory.
-plane_segment/clean:
+pcl_tut_plane_seg/clean: pcl_tut_plane_seg/CMakeFiles/visualization_msgs_generate_messages_nodejs.dir/clean
+pcl_tut_plane_seg/clean: pcl_tut_plane_seg/CMakeFiles/visualization_msgs_generate_messages_eus.dir/clean
+pcl_tut_plane_seg/clean: pcl_tut_plane_seg/CMakeFiles/visualization_msgs_generate_messages_lisp.dir/clean
+pcl_tut_plane_seg/clean: pcl_tut_plane_seg/CMakeFiles/visualization_msgs_generate_messages_cpp.dir/clean
+pcl_tut_plane_seg/clean: pcl_tut_plane_seg/CMakeFiles/visualization_msgs_generate_messages_py.dir/clean
+pcl_tut_plane_seg/clean: pcl_tut_plane_seg/CMakeFiles/pcl_tut_plane_seg_node.dir/clean
 
-.PHONY : plane_segment/clean
+.PHONY : pcl_tut_plane_seg/clean
 
 # Convenience name for "preinstall" pass in the directory.
-plane_segment/preinstall:
+pcl_tut_plane_seg/preinstall:
 
-.PHONY : plane_segment/preinstall
+.PHONY : pcl_tut_plane_seg/preinstall
+
+#=============================================================================
+# Target rules for target pcl_tut_plane_seg/CMakeFiles/visualization_msgs_generate_messages_nodejs.dir
+
+# All Build rule for target.
+pcl_tut_plane_seg/CMakeFiles/visualization_msgs_generate_messages_nodejs.dir/all:
+	$(MAKE) -f pcl_tut_plane_seg/CMakeFiles/visualization_msgs_generate_messages_nodejs.dir/build.make pcl_tut_plane_seg/CMakeFiles/visualization_msgs_generate_messages_nodejs.dir/depend
+	$(MAKE) -f pcl_tut_plane_seg/CMakeFiles/visualization_msgs_generate_messages_nodejs.dir/build.make pcl_tut_plane_seg/CMakeFiles/visualization_msgs_generate_messages_nodejs.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/arktheshadow/ARK-Linux/Programming/ROS/ros-tutorial-practice/catkin_ws_new/build/CMakeFiles --progress-num= "Built target visualization_msgs_generate_messages_nodejs"
+.PHONY : pcl_tut_plane_seg/CMakeFiles/visualization_msgs_generate_messages_nodejs.dir/all
+
+# Build rule for subdir invocation for target.
+pcl_tut_plane_seg/CMakeFiles/visualization_msgs_generate_messages_nodejs.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/arktheshadow/ARK-Linux/Programming/ROS/ros-tutorial-practice/catkin_ws_new/build/CMakeFiles 0
+	$(MAKE) -f CMakeFiles/Makefile2 pcl_tut_plane_seg/CMakeFiles/visualization_msgs_generate_messages_nodejs.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/arktheshadow/ARK-Linux/Programming/ROS/ros-tutorial-practice/catkin_ws_new/build/CMakeFiles 0
+.PHONY : pcl_tut_plane_seg/CMakeFiles/visualization_msgs_generate_messages_nodejs.dir/rule
+
+# Convenience name for target.
+visualization_msgs_generate_messages_nodejs: pcl_tut_plane_seg/CMakeFiles/visualization_msgs_generate_messages_nodejs.dir/rule
+
+.PHONY : visualization_msgs_generate_messages_nodejs
+
+# clean rule for target.
+pcl_tut_plane_seg/CMakeFiles/visualization_msgs_generate_messages_nodejs.dir/clean:
+	$(MAKE) -f pcl_tut_plane_seg/CMakeFiles/visualization_msgs_generate_messages_nodejs.dir/build.make pcl_tut_plane_seg/CMakeFiles/visualization_msgs_generate_messages_nodejs.dir/clean
+.PHONY : pcl_tut_plane_seg/CMakeFiles/visualization_msgs_generate_messages_nodejs.dir/clean
+
+# clean rule for target.
+clean: pcl_tut_plane_seg/CMakeFiles/visualization_msgs_generate_messages_nodejs.dir/clean
+
+.PHONY : clean
+
+#=============================================================================
+# Target rules for target pcl_tut_plane_seg/CMakeFiles/visualization_msgs_generate_messages_eus.dir
+
+# All Build rule for target.
+pcl_tut_plane_seg/CMakeFiles/visualization_msgs_generate_messages_eus.dir/all:
+	$(MAKE) -f pcl_tut_plane_seg/CMakeFiles/visualization_msgs_generate_messages_eus.dir/build.make pcl_tut_plane_seg/CMakeFiles/visualization_msgs_generate_messages_eus.dir/depend
+	$(MAKE) -f pcl_tut_plane_seg/CMakeFiles/visualization_msgs_generate_messages_eus.dir/build.make pcl_tut_plane_seg/CMakeFiles/visualization_msgs_generate_messages_eus.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/arktheshadow/ARK-Linux/Programming/ROS/ros-tutorial-practice/catkin_ws_new/build/CMakeFiles --progress-num= "Built target visualization_msgs_generate_messages_eus"
+.PHONY : pcl_tut_plane_seg/CMakeFiles/visualization_msgs_generate_messages_eus.dir/all
+
+# Build rule for subdir invocation for target.
+pcl_tut_plane_seg/CMakeFiles/visualization_msgs_generate_messages_eus.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/arktheshadow/ARK-Linux/Programming/ROS/ros-tutorial-practice/catkin_ws_new/build/CMakeFiles 0
+	$(MAKE) -f CMakeFiles/Makefile2 pcl_tut_plane_seg/CMakeFiles/visualization_msgs_generate_messages_eus.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/arktheshadow/ARK-Linux/Programming/ROS/ros-tutorial-practice/catkin_ws_new/build/CMakeFiles 0
+.PHONY : pcl_tut_plane_seg/CMakeFiles/visualization_msgs_generate_messages_eus.dir/rule
+
+# Convenience name for target.
+visualization_msgs_generate_messages_eus: pcl_tut_plane_seg/CMakeFiles/visualization_msgs_generate_messages_eus.dir/rule
+
+.PHONY : visualization_msgs_generate_messages_eus
+
+# clean rule for target.
+pcl_tut_plane_seg/CMakeFiles/visualization_msgs_generate_messages_eus.dir/clean:
+	$(MAKE) -f pcl_tut_plane_seg/CMakeFiles/visualization_msgs_generate_messages_eus.dir/build.make pcl_tut_plane_seg/CMakeFiles/visualization_msgs_generate_messages_eus.dir/clean
+.PHONY : pcl_tut_plane_seg/CMakeFiles/visualization_msgs_generate_messages_eus.dir/clean
+
+# clean rule for target.
+clean: pcl_tut_plane_seg/CMakeFiles/visualization_msgs_generate_messages_eus.dir/clean
+
+.PHONY : clean
+
+#=============================================================================
+# Target rules for target pcl_tut_plane_seg/CMakeFiles/visualization_msgs_generate_messages_lisp.dir
+
+# All Build rule for target.
+pcl_tut_plane_seg/CMakeFiles/visualization_msgs_generate_messages_lisp.dir/all:
+	$(MAKE) -f pcl_tut_plane_seg/CMakeFiles/visualization_msgs_generate_messages_lisp.dir/build.make pcl_tut_plane_seg/CMakeFiles/visualization_msgs_generate_messages_lisp.dir/depend
+	$(MAKE) -f pcl_tut_plane_seg/CMakeFiles/visualization_msgs_generate_messages_lisp.dir/build.make pcl_tut_plane_seg/CMakeFiles/visualization_msgs_generate_messages_lisp.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/arktheshadow/ARK-Linux/Programming/ROS/ros-tutorial-practice/catkin_ws_new/build/CMakeFiles --progress-num= "Built target visualization_msgs_generate_messages_lisp"
+.PHONY : pcl_tut_plane_seg/CMakeFiles/visualization_msgs_generate_messages_lisp.dir/all
+
+# Build rule for subdir invocation for target.
+pcl_tut_plane_seg/CMakeFiles/visualization_msgs_generate_messages_lisp.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/arktheshadow/ARK-Linux/Programming/ROS/ros-tutorial-practice/catkin_ws_new/build/CMakeFiles 0
+	$(MAKE) -f CMakeFiles/Makefile2 pcl_tut_plane_seg/CMakeFiles/visualization_msgs_generate_messages_lisp.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/arktheshadow/ARK-Linux/Programming/ROS/ros-tutorial-practice/catkin_ws_new/build/CMakeFiles 0
+.PHONY : pcl_tut_plane_seg/CMakeFiles/visualization_msgs_generate_messages_lisp.dir/rule
+
+# Convenience name for target.
+visualization_msgs_generate_messages_lisp: pcl_tut_plane_seg/CMakeFiles/visualization_msgs_generate_messages_lisp.dir/rule
+
+.PHONY : visualization_msgs_generate_messages_lisp
+
+# clean rule for target.
+pcl_tut_plane_seg/CMakeFiles/visualization_msgs_generate_messages_lisp.dir/clean:
+	$(MAKE) -f pcl_tut_plane_seg/CMakeFiles/visualization_msgs_generate_messages_lisp.dir/build.make pcl_tut_plane_seg/CMakeFiles/visualization_msgs_generate_messages_lisp.dir/clean
+.PHONY : pcl_tut_plane_seg/CMakeFiles/visualization_msgs_generate_messages_lisp.dir/clean
+
+# clean rule for target.
+clean: pcl_tut_plane_seg/CMakeFiles/visualization_msgs_generate_messages_lisp.dir/clean
+
+.PHONY : clean
+
+#=============================================================================
+# Target rules for target pcl_tut_plane_seg/CMakeFiles/visualization_msgs_generate_messages_cpp.dir
+
+# All Build rule for target.
+pcl_tut_plane_seg/CMakeFiles/visualization_msgs_generate_messages_cpp.dir/all:
+	$(MAKE) -f pcl_tut_plane_seg/CMakeFiles/visualization_msgs_generate_messages_cpp.dir/build.make pcl_tut_plane_seg/CMakeFiles/visualization_msgs_generate_messages_cpp.dir/depend
+	$(MAKE) -f pcl_tut_plane_seg/CMakeFiles/visualization_msgs_generate_messages_cpp.dir/build.make pcl_tut_plane_seg/CMakeFiles/visualization_msgs_generate_messages_cpp.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/arktheshadow/ARK-Linux/Programming/ROS/ros-tutorial-practice/catkin_ws_new/build/CMakeFiles --progress-num= "Built target visualization_msgs_generate_messages_cpp"
+.PHONY : pcl_tut_plane_seg/CMakeFiles/visualization_msgs_generate_messages_cpp.dir/all
+
+# Build rule for subdir invocation for target.
+pcl_tut_plane_seg/CMakeFiles/visualization_msgs_generate_messages_cpp.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/arktheshadow/ARK-Linux/Programming/ROS/ros-tutorial-practice/catkin_ws_new/build/CMakeFiles 0
+	$(MAKE) -f CMakeFiles/Makefile2 pcl_tut_plane_seg/CMakeFiles/visualization_msgs_generate_messages_cpp.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/arktheshadow/ARK-Linux/Programming/ROS/ros-tutorial-practice/catkin_ws_new/build/CMakeFiles 0
+.PHONY : pcl_tut_plane_seg/CMakeFiles/visualization_msgs_generate_messages_cpp.dir/rule
+
+# Convenience name for target.
+visualization_msgs_generate_messages_cpp: pcl_tut_plane_seg/CMakeFiles/visualization_msgs_generate_messages_cpp.dir/rule
+
+.PHONY : visualization_msgs_generate_messages_cpp
+
+# clean rule for target.
+pcl_tut_plane_seg/CMakeFiles/visualization_msgs_generate_messages_cpp.dir/clean:
+	$(MAKE) -f pcl_tut_plane_seg/CMakeFiles/visualization_msgs_generate_messages_cpp.dir/build.make pcl_tut_plane_seg/CMakeFiles/visualization_msgs_generate_messages_cpp.dir/clean
+.PHONY : pcl_tut_plane_seg/CMakeFiles/visualization_msgs_generate_messages_cpp.dir/clean
+
+# clean rule for target.
+clean: pcl_tut_plane_seg/CMakeFiles/visualization_msgs_generate_messages_cpp.dir/clean
+
+.PHONY : clean
+
+#=============================================================================
+# Target rules for target pcl_tut_plane_seg/CMakeFiles/visualization_msgs_generate_messages_py.dir
+
+# All Build rule for target.
+pcl_tut_plane_seg/CMakeFiles/visualization_msgs_generate_messages_py.dir/all:
+	$(MAKE) -f pcl_tut_plane_seg/CMakeFiles/visualization_msgs_generate_messages_py.dir/build.make pcl_tut_plane_seg/CMakeFiles/visualization_msgs_generate_messages_py.dir/depend
+	$(MAKE) -f pcl_tut_plane_seg/CMakeFiles/visualization_msgs_generate_messages_py.dir/build.make pcl_tut_plane_seg/CMakeFiles/visualization_msgs_generate_messages_py.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/arktheshadow/ARK-Linux/Programming/ROS/ros-tutorial-practice/catkin_ws_new/build/CMakeFiles --progress-num= "Built target visualization_msgs_generate_messages_py"
+.PHONY : pcl_tut_plane_seg/CMakeFiles/visualization_msgs_generate_messages_py.dir/all
+
+# Build rule for subdir invocation for target.
+pcl_tut_plane_seg/CMakeFiles/visualization_msgs_generate_messages_py.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/arktheshadow/ARK-Linux/Programming/ROS/ros-tutorial-practice/catkin_ws_new/build/CMakeFiles 0
+	$(MAKE) -f CMakeFiles/Makefile2 pcl_tut_plane_seg/CMakeFiles/visualization_msgs_generate_messages_py.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/arktheshadow/ARK-Linux/Programming/ROS/ros-tutorial-practice/catkin_ws_new/build/CMakeFiles 0
+.PHONY : pcl_tut_plane_seg/CMakeFiles/visualization_msgs_generate_messages_py.dir/rule
+
+# Convenience name for target.
+visualization_msgs_generate_messages_py: pcl_tut_plane_seg/CMakeFiles/visualization_msgs_generate_messages_py.dir/rule
+
+.PHONY : visualization_msgs_generate_messages_py
+
+# clean rule for target.
+pcl_tut_plane_seg/CMakeFiles/visualization_msgs_generate_messages_py.dir/clean:
+	$(MAKE) -f pcl_tut_plane_seg/CMakeFiles/visualization_msgs_generate_messages_py.dir/build.make pcl_tut_plane_seg/CMakeFiles/visualization_msgs_generate_messages_py.dir/clean
+.PHONY : pcl_tut_plane_seg/CMakeFiles/visualization_msgs_generate_messages_py.dir/clean
+
+# clean rule for target.
+clean: pcl_tut_plane_seg/CMakeFiles/visualization_msgs_generate_messages_py.dir/clean
+
+.PHONY : clean
+
+#=============================================================================
+# Target rules for target pcl_tut_plane_seg/CMakeFiles/pcl_tut_plane_seg_node.dir
+
+# All Build rule for target.
+pcl_tut_plane_seg/CMakeFiles/pcl_tut_plane_seg_node.dir/all:
+	$(MAKE) -f pcl_tut_plane_seg/CMakeFiles/pcl_tut_plane_seg_node.dir/build.make pcl_tut_plane_seg/CMakeFiles/pcl_tut_plane_seg_node.dir/depend
+	$(MAKE) -f pcl_tut_plane_seg/CMakeFiles/pcl_tut_plane_seg_node.dir/build.make pcl_tut_plane_seg/CMakeFiles/pcl_tut_plane_seg_node.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/arktheshadow/ARK-Linux/Programming/ROS/ros-tutorial-practice/catkin_ws_new/build/CMakeFiles --progress-num=24,25 "Built target pcl_tut_plane_seg_node"
+.PHONY : pcl_tut_plane_seg/CMakeFiles/pcl_tut_plane_seg_node.dir/all
+
+# Include target in all.
+all: pcl_tut_plane_seg/CMakeFiles/pcl_tut_plane_seg_node.dir/all
+
+.PHONY : all
+
+# Build rule for subdir invocation for target.
+pcl_tut_plane_seg/CMakeFiles/pcl_tut_plane_seg_node.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/arktheshadow/ARK-Linux/Programming/ROS/ros-tutorial-practice/catkin_ws_new/build/CMakeFiles 2
+	$(MAKE) -f CMakeFiles/Makefile2 pcl_tut_plane_seg/CMakeFiles/pcl_tut_plane_seg_node.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/arktheshadow/ARK-Linux/Programming/ROS/ros-tutorial-practice/catkin_ws_new/build/CMakeFiles 0
+.PHONY : pcl_tut_plane_seg/CMakeFiles/pcl_tut_plane_seg_node.dir/rule
+
+# Convenience name for target.
+pcl_tut_plane_seg_node: pcl_tut_plane_seg/CMakeFiles/pcl_tut_plane_seg_node.dir/rule
+
+.PHONY : pcl_tut_plane_seg_node
+
+# clean rule for target.
+pcl_tut_plane_seg/CMakeFiles/pcl_tut_plane_seg_node.dir/clean:
+	$(MAKE) -f pcl_tut_plane_seg/CMakeFiles/pcl_tut_plane_seg_node.dir/build.make pcl_tut_plane_seg/CMakeFiles/pcl_tut_plane_seg_node.dir/clean
+.PHONY : pcl_tut_plane_seg/CMakeFiles/pcl_tut_plane_seg_node.dir/clean
+
+# clean rule for target.
+clean: pcl_tut_plane_seg/CMakeFiles/pcl_tut_plane_seg_node.dir/clean
+
+.PHONY : clean
 
 #=============================================================================
 # Directory level rules for directory using_markers
@@ -3280,11 +3482,6 @@ using_markers/all: using_markers/CMakeFiles/basic_shapes.dir/all
 .PHONY : using_markers/all
 
 # Convenience name for "clean" pass in the directory.
-using_markers/clean: using_markers/CMakeFiles/visualization_msgs_generate_messages_nodejs.dir/clean
-using_markers/clean: using_markers/CMakeFiles/visualization_msgs_generate_messages_eus.dir/clean
-using_markers/clean: using_markers/CMakeFiles/visualization_msgs_generate_messages_cpp.dir/clean
-using_markers/clean: using_markers/CMakeFiles/visualization_msgs_generate_messages_py.dir/clean
-using_markers/clean: using_markers/CMakeFiles/visualization_msgs_generate_messages_lisp.dir/clean
 using_markers/clean: using_markers/CMakeFiles/basic_shapes.dir/clean
 
 .PHONY : using_markers/clean
@@ -3293,166 +3490,6 @@ using_markers/clean: using_markers/CMakeFiles/basic_shapes.dir/clean
 using_markers/preinstall:
 
 .PHONY : using_markers/preinstall
-
-#=============================================================================
-# Target rules for target using_markers/CMakeFiles/visualization_msgs_generate_messages_nodejs.dir
-
-# All Build rule for target.
-using_markers/CMakeFiles/visualization_msgs_generate_messages_nodejs.dir/all:
-	$(MAKE) -f using_markers/CMakeFiles/visualization_msgs_generate_messages_nodejs.dir/build.make using_markers/CMakeFiles/visualization_msgs_generate_messages_nodejs.dir/depend
-	$(MAKE) -f using_markers/CMakeFiles/visualization_msgs_generate_messages_nodejs.dir/build.make using_markers/CMakeFiles/visualization_msgs_generate_messages_nodejs.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/arktheshadow/ARK-Linux/Programming/ROS/ros-tutorial-practice/catkin_ws_new/build/CMakeFiles --progress-num= "Built target visualization_msgs_generate_messages_nodejs"
-.PHONY : using_markers/CMakeFiles/visualization_msgs_generate_messages_nodejs.dir/all
-
-# Build rule for subdir invocation for target.
-using_markers/CMakeFiles/visualization_msgs_generate_messages_nodejs.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/arktheshadow/ARK-Linux/Programming/ROS/ros-tutorial-practice/catkin_ws_new/build/CMakeFiles 0
-	$(MAKE) -f CMakeFiles/Makefile2 using_markers/CMakeFiles/visualization_msgs_generate_messages_nodejs.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/arktheshadow/ARK-Linux/Programming/ROS/ros-tutorial-practice/catkin_ws_new/build/CMakeFiles 0
-.PHONY : using_markers/CMakeFiles/visualization_msgs_generate_messages_nodejs.dir/rule
-
-# Convenience name for target.
-visualization_msgs_generate_messages_nodejs: using_markers/CMakeFiles/visualization_msgs_generate_messages_nodejs.dir/rule
-
-.PHONY : visualization_msgs_generate_messages_nodejs
-
-# clean rule for target.
-using_markers/CMakeFiles/visualization_msgs_generate_messages_nodejs.dir/clean:
-	$(MAKE) -f using_markers/CMakeFiles/visualization_msgs_generate_messages_nodejs.dir/build.make using_markers/CMakeFiles/visualization_msgs_generate_messages_nodejs.dir/clean
-.PHONY : using_markers/CMakeFiles/visualization_msgs_generate_messages_nodejs.dir/clean
-
-# clean rule for target.
-clean: using_markers/CMakeFiles/visualization_msgs_generate_messages_nodejs.dir/clean
-
-.PHONY : clean
-
-#=============================================================================
-# Target rules for target using_markers/CMakeFiles/visualization_msgs_generate_messages_eus.dir
-
-# All Build rule for target.
-using_markers/CMakeFiles/visualization_msgs_generate_messages_eus.dir/all:
-	$(MAKE) -f using_markers/CMakeFiles/visualization_msgs_generate_messages_eus.dir/build.make using_markers/CMakeFiles/visualization_msgs_generate_messages_eus.dir/depend
-	$(MAKE) -f using_markers/CMakeFiles/visualization_msgs_generate_messages_eus.dir/build.make using_markers/CMakeFiles/visualization_msgs_generate_messages_eus.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/arktheshadow/ARK-Linux/Programming/ROS/ros-tutorial-practice/catkin_ws_new/build/CMakeFiles --progress-num= "Built target visualization_msgs_generate_messages_eus"
-.PHONY : using_markers/CMakeFiles/visualization_msgs_generate_messages_eus.dir/all
-
-# Build rule for subdir invocation for target.
-using_markers/CMakeFiles/visualization_msgs_generate_messages_eus.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/arktheshadow/ARK-Linux/Programming/ROS/ros-tutorial-practice/catkin_ws_new/build/CMakeFiles 0
-	$(MAKE) -f CMakeFiles/Makefile2 using_markers/CMakeFiles/visualization_msgs_generate_messages_eus.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/arktheshadow/ARK-Linux/Programming/ROS/ros-tutorial-practice/catkin_ws_new/build/CMakeFiles 0
-.PHONY : using_markers/CMakeFiles/visualization_msgs_generate_messages_eus.dir/rule
-
-# Convenience name for target.
-visualization_msgs_generate_messages_eus: using_markers/CMakeFiles/visualization_msgs_generate_messages_eus.dir/rule
-
-.PHONY : visualization_msgs_generate_messages_eus
-
-# clean rule for target.
-using_markers/CMakeFiles/visualization_msgs_generate_messages_eus.dir/clean:
-	$(MAKE) -f using_markers/CMakeFiles/visualization_msgs_generate_messages_eus.dir/build.make using_markers/CMakeFiles/visualization_msgs_generate_messages_eus.dir/clean
-.PHONY : using_markers/CMakeFiles/visualization_msgs_generate_messages_eus.dir/clean
-
-# clean rule for target.
-clean: using_markers/CMakeFiles/visualization_msgs_generate_messages_eus.dir/clean
-
-.PHONY : clean
-
-#=============================================================================
-# Target rules for target using_markers/CMakeFiles/visualization_msgs_generate_messages_cpp.dir
-
-# All Build rule for target.
-using_markers/CMakeFiles/visualization_msgs_generate_messages_cpp.dir/all:
-	$(MAKE) -f using_markers/CMakeFiles/visualization_msgs_generate_messages_cpp.dir/build.make using_markers/CMakeFiles/visualization_msgs_generate_messages_cpp.dir/depend
-	$(MAKE) -f using_markers/CMakeFiles/visualization_msgs_generate_messages_cpp.dir/build.make using_markers/CMakeFiles/visualization_msgs_generate_messages_cpp.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/arktheshadow/ARK-Linux/Programming/ROS/ros-tutorial-practice/catkin_ws_new/build/CMakeFiles --progress-num= "Built target visualization_msgs_generate_messages_cpp"
-.PHONY : using_markers/CMakeFiles/visualization_msgs_generate_messages_cpp.dir/all
-
-# Build rule for subdir invocation for target.
-using_markers/CMakeFiles/visualization_msgs_generate_messages_cpp.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/arktheshadow/ARK-Linux/Programming/ROS/ros-tutorial-practice/catkin_ws_new/build/CMakeFiles 0
-	$(MAKE) -f CMakeFiles/Makefile2 using_markers/CMakeFiles/visualization_msgs_generate_messages_cpp.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/arktheshadow/ARK-Linux/Programming/ROS/ros-tutorial-practice/catkin_ws_new/build/CMakeFiles 0
-.PHONY : using_markers/CMakeFiles/visualization_msgs_generate_messages_cpp.dir/rule
-
-# Convenience name for target.
-visualization_msgs_generate_messages_cpp: using_markers/CMakeFiles/visualization_msgs_generate_messages_cpp.dir/rule
-
-.PHONY : visualization_msgs_generate_messages_cpp
-
-# clean rule for target.
-using_markers/CMakeFiles/visualization_msgs_generate_messages_cpp.dir/clean:
-	$(MAKE) -f using_markers/CMakeFiles/visualization_msgs_generate_messages_cpp.dir/build.make using_markers/CMakeFiles/visualization_msgs_generate_messages_cpp.dir/clean
-.PHONY : using_markers/CMakeFiles/visualization_msgs_generate_messages_cpp.dir/clean
-
-# clean rule for target.
-clean: using_markers/CMakeFiles/visualization_msgs_generate_messages_cpp.dir/clean
-
-.PHONY : clean
-
-#=============================================================================
-# Target rules for target using_markers/CMakeFiles/visualization_msgs_generate_messages_py.dir
-
-# All Build rule for target.
-using_markers/CMakeFiles/visualization_msgs_generate_messages_py.dir/all:
-	$(MAKE) -f using_markers/CMakeFiles/visualization_msgs_generate_messages_py.dir/build.make using_markers/CMakeFiles/visualization_msgs_generate_messages_py.dir/depend
-	$(MAKE) -f using_markers/CMakeFiles/visualization_msgs_generate_messages_py.dir/build.make using_markers/CMakeFiles/visualization_msgs_generate_messages_py.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/arktheshadow/ARK-Linux/Programming/ROS/ros-tutorial-practice/catkin_ws_new/build/CMakeFiles --progress-num= "Built target visualization_msgs_generate_messages_py"
-.PHONY : using_markers/CMakeFiles/visualization_msgs_generate_messages_py.dir/all
-
-# Build rule for subdir invocation for target.
-using_markers/CMakeFiles/visualization_msgs_generate_messages_py.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/arktheshadow/ARK-Linux/Programming/ROS/ros-tutorial-practice/catkin_ws_new/build/CMakeFiles 0
-	$(MAKE) -f CMakeFiles/Makefile2 using_markers/CMakeFiles/visualization_msgs_generate_messages_py.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/arktheshadow/ARK-Linux/Programming/ROS/ros-tutorial-practice/catkin_ws_new/build/CMakeFiles 0
-.PHONY : using_markers/CMakeFiles/visualization_msgs_generate_messages_py.dir/rule
-
-# Convenience name for target.
-visualization_msgs_generate_messages_py: using_markers/CMakeFiles/visualization_msgs_generate_messages_py.dir/rule
-
-.PHONY : visualization_msgs_generate_messages_py
-
-# clean rule for target.
-using_markers/CMakeFiles/visualization_msgs_generate_messages_py.dir/clean:
-	$(MAKE) -f using_markers/CMakeFiles/visualization_msgs_generate_messages_py.dir/build.make using_markers/CMakeFiles/visualization_msgs_generate_messages_py.dir/clean
-.PHONY : using_markers/CMakeFiles/visualization_msgs_generate_messages_py.dir/clean
-
-# clean rule for target.
-clean: using_markers/CMakeFiles/visualization_msgs_generate_messages_py.dir/clean
-
-.PHONY : clean
-
-#=============================================================================
-# Target rules for target using_markers/CMakeFiles/visualization_msgs_generate_messages_lisp.dir
-
-# All Build rule for target.
-using_markers/CMakeFiles/visualization_msgs_generate_messages_lisp.dir/all:
-	$(MAKE) -f using_markers/CMakeFiles/visualization_msgs_generate_messages_lisp.dir/build.make using_markers/CMakeFiles/visualization_msgs_generate_messages_lisp.dir/depend
-	$(MAKE) -f using_markers/CMakeFiles/visualization_msgs_generate_messages_lisp.dir/build.make using_markers/CMakeFiles/visualization_msgs_generate_messages_lisp.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/arktheshadow/ARK-Linux/Programming/ROS/ros-tutorial-practice/catkin_ws_new/build/CMakeFiles --progress-num= "Built target visualization_msgs_generate_messages_lisp"
-.PHONY : using_markers/CMakeFiles/visualization_msgs_generate_messages_lisp.dir/all
-
-# Build rule for subdir invocation for target.
-using_markers/CMakeFiles/visualization_msgs_generate_messages_lisp.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/arktheshadow/ARK-Linux/Programming/ROS/ros-tutorial-practice/catkin_ws_new/build/CMakeFiles 0
-	$(MAKE) -f CMakeFiles/Makefile2 using_markers/CMakeFiles/visualization_msgs_generate_messages_lisp.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/arktheshadow/ARK-Linux/Programming/ROS/ros-tutorial-practice/catkin_ws_new/build/CMakeFiles 0
-.PHONY : using_markers/CMakeFiles/visualization_msgs_generate_messages_lisp.dir/rule
-
-# Convenience name for target.
-visualization_msgs_generate_messages_lisp: using_markers/CMakeFiles/visualization_msgs_generate_messages_lisp.dir/rule
-
-.PHONY : visualization_msgs_generate_messages_lisp
-
-# clean rule for target.
-using_markers/CMakeFiles/visualization_msgs_generate_messages_lisp.dir/clean:
-	$(MAKE) -f using_markers/CMakeFiles/visualization_msgs_generate_messages_lisp.dir/build.make using_markers/CMakeFiles/visualization_msgs_generate_messages_lisp.dir/clean
-.PHONY : using_markers/CMakeFiles/visualization_msgs_generate_messages_lisp.dir/clean
-
-# clean rule for target.
-clean: using_markers/CMakeFiles/visualization_msgs_generate_messages_lisp.dir/clean
-
-.PHONY : clean
 
 #=============================================================================
 # Target rules for target using_markers/CMakeFiles/basic_shapes.dir
